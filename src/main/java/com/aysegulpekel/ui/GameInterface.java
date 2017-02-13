@@ -1,6 +1,7 @@
 package com.aysegulpekel.ui;
 
 import javax.swing.*;
+
 import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;
@@ -74,7 +75,8 @@ public class GameInterface extends JFrame implements ActionListener {
     }
 
     /**
-     * Game board is visual representation class of th board with its listeners and runnable application
+     * Game board is visual representation class of th board with its listeners and runnable
+     * application
      */
     private class GameBoard extends JPanel implements ComponentListener, MouseListener, MouseMotionListener, Runnable {
         // Array list to keep clicked points on board
@@ -208,9 +210,8 @@ public class GameInterface extends JFrame implements ActionListener {
         }
 
         /**
-         * Run is the method to call recursively to make life continue as soon as the board is not reset
-         * <p>
-         * Creates the board, initializes the cells status as set alive by the clicks.
+         * Run is the method to call recursively to make life continue as soon as the board is not
+         * reset <p> Creates the board, initializes the cells status as set alive by the clicks.
          */
         public void run() {
             Cell[][] matrix = new Cell[BOARD_SIZE.width][BOARD_SIZE.height];

@@ -11,11 +11,11 @@ And each cell's destiny is determined by their society.
 * If the cell has exactly 3 neighbours, then it regenerates itself.
 * If the cell has more than 3 neighbours, then it dies because of the overpopulation.
 #### The challenge
-    With this simulation, it is not allowed to use any conditional statement for these rules.
+    With this simulation, it is not allowed to use any conditional statement for the predefined rules part.
 
 ## Requirements
 * Java 8+
-* Maven 2+
+* Maven 3+
 
 ## How to run?
 
