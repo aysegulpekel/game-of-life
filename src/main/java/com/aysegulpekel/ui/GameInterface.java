@@ -13,6 +13,7 @@ import com.aysegulpekel.core.Board;
 import com.aysegulpekel.core.Cell;
 
 /**
+ * Modified and simplified form of: https://rosettacode.org/wiki/Conway%27s_Game_of_Life/Java/Swing
  * Game Interface represents the life on the board
  */
 public class GameInterface extends JFrame implements ActionListener {
