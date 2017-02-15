@@ -10,8 +10,9 @@ And each cell's destiny is determined by their society.
 * If the cell has exactly 2 neighbours, then it lives happily ever after.
 * If the cell has exactly 3 neighbours, then it regenerates itself.
 * If the cell has more than 3 neighbours, then it dies because of the overpopulation.
-#### The challenge
-    With this simulation, it is not allowed to use any conditional statement for the predefined rules part.
+## The challenge
+
+With this simulation, it is not allowed to use any conditional statement for the predefined rules part.
 
 ## Requirements
 * Java 8+
